@@ -63,8 +63,6 @@ class Migration(migrations.Migration):
                 ('spouse_employer', models.CharField(blank=True, max_length=100, null=True)),
                 ('spouse_business_address', models.CharField(blank=True, max_length=200, null=True)),
                 ('spouse_telephone', models.CharField(blank=True, max_length=20, null=True)),
-                ('elementary_education', models.CharField(blank=True, max_length=200, null=True)),
-                ('secondary_education', models.CharField(blank=True, max_length=200, null=True)),
                 ('father_surname', models.CharField(blank=True, max_length=100, null=True)),
                 ('father_first_name', models.CharField(blank=True, max_length=100, null=True)),
                 ('father_middle_name', models.CharField(blank=True, max_length=100, null=True)),
